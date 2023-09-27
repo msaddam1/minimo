@@ -1,0 +1,394 @@
+/*css media query start*/
+
+
+
+/****
+ * 
+ * screen resolution: 279px to 319 px
+ * most of the folding phone- galaxy folding phone
+ * 
+ * */
+@media (min-width: 279px) and (max-width: 319px){
+
+	.header .navbar-toggler{
+		background: #626262;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 12px;
+	}
+	.banner{
+		padding: 120px 0px;
+	}
+	.pdiary{
+		padding: 30px 0px;	
+	}
+	.pdiary h4{
+		font-size: 10px;
+		text-align: center;
+	}
+	.pdiary h1{
+		font-size: 18px;
+		text-align: center;
+	}
+	.pdiary h6{
+		font-size: 8px;
+		margin: 0px 17px 10px 10px;
+	}
+	.pdiary p{
+		font-size: 9px;
+		margin: 0px 0px 0px 10px;
+	}
+	.life{
+		padding: 30px 0px;
+	}
+	.life .lfe-img{
+		width: 255px;
+    	height: 200px;
+	}
+	.life h4{
+		font-size: 12px;
+		text-align: center;
+	}
+	.life h1{
+		font-size: 18px;
+		text-align: center;
+	}
+	.life p{
+		font-size: 8px;
+		text-align: center;
+	}
+	.sign{
+		padding: 30px 0px;
+	}
+	.sign h1{
+		font-size: 22px;
+	}
+	.sign h4{
+		font-size: 12px;
+	}
+	.tour{
+		padding: 30px 0px;
+	}
+	.tour .lfe-img{
+		width: 255px;
+    	height: 200px;
+	}
+	.tour h4{
+		font-size: 12px;
+		text-align: center;
+	}
+	.tour h1{
+		font-size: 22px;
+		text-align: center;
+	}
+	.tour p{
+		font-size: 8px;
+		text-align: center;
+	}
+	.footer p{
+		font-size: 8px;
+		text-align: center;
+	}
+	.footer .social-media li{
+		margin: 0px 30px 0px 0px;
+		text-align: left;
+	}
+
+}
+
+
+/****
+ * 
+ * screen resolution: 320px to 480 px
+ * most of the mobile phone
+ * 
+ * */
+@media (min-width: 320px) and (max-width: 480px){
+
+	.header .navbar-toggler{
+		background: #626262;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 14px;
+	}
+	.banner{
+		padding: 120px 0px;
+	}
+	.pdiary{
+		padding: 30px 0px;	
+	}
+	.pdiary h4{
+		font-size: 12px;
+		text-align: center;
+	}
+	.pdiary h1{
+		font-size: 26px;
+		text-align: center;
+	}
+	.pdiary h6{
+		font-size: 10px;
+		margin: 0px 17px 10px 10px;
+	}
+	.pdiary p{
+		font-size: 10px;
+		margin: 0px 0px 0px 10px;
+	}
+	.life{
+		padding: 30px 0px;
+	}
+	.life .lfe-img{
+		width: 367px;
+    	height: 200px;
+	}
+	.life h4{
+		font-size: 14px;
+		text-align: center;
+	}
+	.life h1{
+		font-size: 24px;
+		text-align: center;
+	}
+	.life p{
+		font-size: 12px;
+		text-align: center;
+	}
+	.sign{
+		padding: 30px 0px;
+	}
+	.sign h1{
+		font-size: 28px;
+	}
+	.sign h4{
+		font-size: 14px;
+	}
+	.tour{
+		padding: 30px 0px;
+	}
+	.tour .lfe-img{
+		width: 367px;
+    	height: 200px;
+	}
+	.tour h4{
+		font-size: 14px;
+		text-align: center;
+	}
+	.tour h1{
+		font-size: 28px;
+		text-align: center;
+	}
+	.tour p{
+		font-size: 12px;
+		text-align: center;
+	}
+	.footer p{
+		font-size: 12px;
+		text-align: center;
+	}
+	.footer .social-media{
+		text-align: center;
+	}
+
+}
+
+/****
+ * 
+ * screen resolution: 481px to 767 px
+ * most of the mobile phone and low resolution tab
+ * 
+ * */
+@media (min-width: 481px) and (max-width: 767px){
+
+	.header .navbar-toggler{
+		background: #626262;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 14px;
+	}
+	.banner{
+		padding: 130px 0px;
+	}
+	.pdiary{
+		padding: 30px 0px;	
+	}
+	.pdiary h4{
+		font-size: 14px;
+		text-align: center;
+	}
+	.pdiary h1{
+		font-size: 28px;
+		text-align: center;
+	}
+	.pdiary h6{
+		font-size: 12px;
+		margin: 0px 17px 10px 10px;
+	}
+	.pdiary p{
+		font-size: 11px;
+		margin: 0px 0px 0px 10px;
+	}
+	.life{
+		padding: 30px 0px;
+	}
+	.life .lfe-img{
+		width: 515px;
+    	height: auto;
+	}
+	.life h4{
+		font-size: 16px;
+		text-align: center;
+	}
+	.life h1{
+		font-size: 24px;
+		text-align: center;
+	}
+	.life p{
+		font-size: 16px;
+		text-align: center;
+	}
+	.sign{
+		padding: 30px 0px;
+	}
+	.sign h1{
+		font-size: 30px;
+	}
+	.sign h4{
+		font-size: 16px;
+	}
+	.tour{
+		padding: 30px 0px;
+	}
+	.tour .lfe-img{
+		width: 515px;
+    	height: auto;
+	}
+	.tour h4{
+		font-size: 16px;
+		text-align: center;
+	}
+	.tour h1{
+		font-size: 30px;
+		text-align: center;
+	}
+	.tour p{
+		font-size: 13px;
+		text-align: center;
+	}
+	.footer p{
+		text-align: center;
+	}
+	.footer .social-media{
+		text-align: center;
+	}
+}
+
+/****
+ * 
+ * screen resolution: 768px to 1024 px
+ * most of the tablests, notebook, ipad
+ * 
+ * */
+@media (min-width: 768px) and (max-width: 1024px){
+
+	.header .navbar-toggler{
+		background: #626262;
+    	border-radius: 0px;
+	}
+	.header .navbar-toggler .fa-bars{
+		color: #fff;
+	}
+	.header .navbar-expand-lg .navbar-nav .nav-link{
+		margin: 0px;
+		font-size: 14px;
+	}
+	.banner{
+		padding: 130px 0px;
+	}
+	.pdiary{
+		padding: 30px 0px;	
+	}
+	.pdiary h4{
+		font-size: 14px;
+		text-align: center;
+	}
+	.pdiary h1{
+		font-size: 28px;
+		text-align: center;
+	}
+	.pdiary h6{
+		font-size: 12px;
+		margin: 0px 17px 10px 10px;
+	}
+	.pdiary p{
+		font-size: 11px;
+		margin: 0px 0px 0px 10px;
+	}
+	.life{
+		padding: 30px 0px;
+	}
+	.life .lfe-img{
+		width: 697px;
+    	height: 300px;
+	}
+	.life h4{
+		font-size: 16px;
+		text-align: center;
+	}
+	.life h1{
+		font-size: 24px;
+		text-align: center;
+	}
+	.life p{
+		font-size: 16px;
+		text-align: center;
+	}
+	.sign{
+		padding: 30px 0px;
+	}
+	.sign h1{
+		font-size: 30px;
+	}
+	.sign h4{
+		font-size: 16px;
+	}
+	.tour{
+		padding: 30px 0px;
+	}
+	.tour .lfe-img{
+		width: 697px;
+    	height: 300px;
+	}
+	.tour h4{
+		font-size: 16px;
+		text-align: center;
+	}
+	.tour h1{
+		font-size: 30px;
+		text-align: center;
+	}
+	.tour p{
+		font-size: 13px;
+		text-align: center;
+	}
+	.footer p{
+		text-align: center;
+	}
+	.footer .social-media{
+		text-align: center;
+	}
+
+}
